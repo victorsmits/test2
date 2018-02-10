@@ -2,6 +2,7 @@
 # Author: Sébastien Combéfis
 # Version: February 8, 2018
 
+
 import unittest
 from utils import *
 class TestUtils(unittest.TestCase):
@@ -23,4 +24,4 @@ if __name__ == '__main__':
     suite = unittest.TestLoader().loadTestsFromTestCase(TestUtils)
     runner = unittest.TextTestRunner()
     exit(not runner.run(suite).wasSuccessful())
-    
+#test
